@@ -100,6 +100,25 @@ export default function Home() {
               </div>
             </div>
 
+            <div className="card bg-base-100 shadow-sm">
+              <div className="card-body">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="card-title text-2xl">Name that movie</h3>
+                    <div className="flex gap-2 my-2">
+                      <div className="badge badge-primary">Next.js</div>
+                      <div className="badge badge-warning">MongoDB</div>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-xl">Guess the movie based on Letterboxd reviews.</p>
+                <div className="card-actions justify-end mt-4">
+                  <a href="https://name-that-movie.leopold.dev/" target="_blank" className="btn btn-primary">View Project</a>
+                  <a href="https://github.com/Plopleo/name-that-movie" target="_blank" className="btn btn-outline">Source Code</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
